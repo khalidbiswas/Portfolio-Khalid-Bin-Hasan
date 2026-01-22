@@ -23,7 +23,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="bg-slate-950 py-20 px-6">
+        <section id='projects' className="bg-slate-950 py-20 px-6">
             <div className="max-w-7xl mx-auto">
                 {/* Section Header */}
                 <div className="flex items-center gap-4 mb-12">

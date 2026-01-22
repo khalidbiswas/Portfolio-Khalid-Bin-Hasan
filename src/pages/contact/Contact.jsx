@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gray-900 px-4 flex items-center">
+    <section id="contact" className="min-h-screen bg-gray-900 px-4 flex items-center">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12">
 
         {/* Left */}

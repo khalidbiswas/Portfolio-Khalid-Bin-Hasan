@@ -1,8 +1,13 @@
 import React from 'react';
 import profileImg from "../../assets/profile.jpeg";
 const Hero = () => {
+    const scrollTo = () => {
+        const section = document.getElementById('contact');
+        section?.scrollIntoView({ behavior: "smooth" });
+    };
+
     return (
-        <section className="min-h-screen bg-gray-900 flex items-center justify-center px-4">
+        <section id='hero' className="min-h-screen bg-gray-900 flex items-center justify-center px-4">
             <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:justify-between gap-10">
 
                 {/* Left Section: Text */}
@@ -16,7 +21,7 @@ const Hero = () => {
                     <p className="text-gray-300 mb-6">
                         Specializing in modern web development and cyber systems
                     </p>
-                    <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold transition">
+                    <button onClick={scrollTo} className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold transition">
                         Let's Connect
                     </button>
                 </div>
