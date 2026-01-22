@@ -8,7 +8,7 @@ const Footer = () => {
         { icon: <FaGithub />, href: "https://github.com/khalidbiswas", label: "GitHub" },
         { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/khalid-bin-hasan0/", label: "LinkedIn" },
         { icon: <FaWhatsapp />, href: "https://wa.me/01566085589", label: "WhatsApp" },
-        { icon: <FaFacebookF />, href: "https://facebook.com/yourusername", label: "Facebook" },
+        { icon: <FaFacebookF />, href: "https://www.facebook.com/profile.php?id=61566565956605", label: "Facebook" },
     ];
 
     return (

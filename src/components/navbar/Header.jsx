@@ -1,11 +1,10 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
 
-  const navLinkClass = ({ isActive }) =>
+  const linkClass = ({ isActive }) =>
     isActive
       ? "text-emerald-400 font-semibold"
       : "text-gray-300 hover:text-emerald-400";
@@ -29,10 +28,10 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8">
-          <NavLink to="/" className={navLinkClass}>Home</NavLink>
-          <NavLink to="/skills" className={navLinkClass}>Skills</NavLink>
-          <NavLink to="/projects" className={navLinkClass}>Projects</NavLink>
-          <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
+          <button to="/" className={linkClass}>Home</button>
+          <button to="/skills" className={linkClass}>Skills</button>
+          <button to="/projects" className={linkClass}>Projects</button>
+          <button to="/contact" className={linkClass}>Contact</button>
         </div>
       </div>
 
@@ -40,10 +39,10 @@ const Header = () => {
       {open && (
         <div className="md:hidden bg-gray-900 border-t border-gray-700">
           <div className="flex flex-col items-center gap-6 py-6">
-            <NavLink onClick={() => setOpen(false)} to="/" className={navLinkClass}>Home</NavLink>
-            <NavLink onClick={() => setOpen(false)} to="/skills" className={navLinkClass}>Skills</NavLink>
-            <NavLink onClick={() => setOpen(false)} to="/projects" className={navLinkClass}>Projects</NavLink>
-            <NavLink onClick={() => setOpen(false)} to="/contact" className={navLinkClass}>Contact</NavLink>
+            <button onClick={() => setOpen(false)} to="/" className={linkClass}>Home</button>
+            <button onClick={() => setOpen(false)} to="/skills" className={linkClass}>Skills</button>
+            <button onClick={() => setOpen(false)} to="/projects" className={linkClass}>Projects</button>
+            <button onClick={() => setOpen(false)} to="/contact" className={linkClass}>Contact</button>
           </div>
         </div>
       )}

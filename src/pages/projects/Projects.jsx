@@ -4,29 +4,22 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 const Projects = () => {
     const projectData = [
         {
-            title: "E-Commerce Dashboard",
-            description: "A full-stack admin panel with real-time inventory tracking, sales analytics, and user management features.",
-            tech: ["React", "Node.js", "MongoDB", "Tailwind"],
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-            github: "#",
-            live: "#"
+            title: "The Dragon News",
+            description: "A frontend Project ",
+            tech: ["React", "fireBase", "Tailwind"],
+            image: "https://i.postimg.cc/6pFGfh75/tdn.png",
+            github: "https://github.com/khalidbiswas/The-Dragon-News",
+            live: "https://the-dragon-news0.netlify.app/category/0"
         },
         {
-            title: "AI Portfolio Generator",
-            description: "An automated tool that builds developer portfolios from GitHub usernames using OpenAI's API.",
-            tech: ["Next.js", "OpenAI", "TypeScript", "Framer Motion"],
-            image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+            title: "English Janala",
+            description: "An Education Website",
+            tech: ["React", "fireBase", "Tailwind"],
+            image: "https://i.postimg.cc/xT4k9P3m/english-is-easy.png",
             github: "#",
-            live: "#"
+            live: "https://phass-6-milestone-6.netlify.app/"
         },
-        {
-            title: "Task Management App",
-            description: "A collaborative productivity tool with drag-and-drop kanban boards and team chat integration.",
-            tech: ["React", "Firebase", "Redux", "Material UI"],
-            image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=800&q=80",
-            github: "#",
-            live: "#"
-        }
+       
     ];
 
     return (

@@ -7,17 +7,17 @@ const Skills = () => {
     const skillData = [
         {
             title: "Frontend Development",
-            description: "React, Vue, HTML5, CSS3, JavaScript",
+            description: "React, HTML5, CSS3,Tailwind, JavaScript",
             icon: <LuFileCode2 className="text-emerald-500 text-4xl" />,
         },
         {
             title: "Backend Development",
-            description: "Node.js, Python, MongoDB, PostgreSQL",
+            description: "Node.js, Python,",
             icon: <HiOutlineDatabase className="text-emerald-500 text-4xl" />,
         },
         {
             title: "UI/UX Design",
-            description: "Figma, Adobe XD, Prototyping, User Testing",
+            description: "Figma, User Testing",
             icon: <FaPaintBrush className="text-emerald-500 text-3xl" />,
         }
     ];
