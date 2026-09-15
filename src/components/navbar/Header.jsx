@@ -14,7 +14,7 @@ const Header = () => {
     "text-emerald-400 hover:text-emerald-300 font-medium";
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md z-50">
+    <nav className="fixed top-0 left-0 p-5 w-full bg-gray-900 shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
 
         {/* Logo */}
