@@ -23,9 +23,9 @@ const Projects = () => {
             title: "Obvious-Chat",
             description: "A Real time chat app",
             tech: ["React", "fireBase", "Tailwind, bcryptjs,express,jsonwebtoken,mongoose,socket.io"],
-            image: "",
-            github: "#",
-            live: "https://phass-6-milestone-6.netlify.app/"
+            image: "https://i.ibb.co.com/5W77f4J2/image.png",
+            github: "github.com/khalidbiswas/Obvious-Chat",
+            live: ""
         }
        
     ];
