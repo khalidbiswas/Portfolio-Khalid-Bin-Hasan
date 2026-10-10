@@ -19,6 +19,14 @@ const Projects = () => {
             github: "#",
             live: "https://phass-6-milestone-6.netlify.app/"
         },
+        {
+            title: "Obvious-Chat",
+            description: "A Real time chat app",
+            tech: ["React", "fireBase", "Tailwind, bcryptjs,express,jsonwebtoken,mongoose,socket.io"],
+            image: "",
+            github: "#",
+            live: "https://phass-6-milestone-6.netlify.app/"
+        }
        
     ];
 
